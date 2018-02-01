@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TimberLabel.Example"
+             xmlns:timber="clr-namespace:TimberControls.Label;assembly=TimberControls.TimberLabel"
+             x:Class="TimberLabel.Example.MainPage">
+
+    <StackLayout
+        Padding="20"
+        Spacing="20"
+        VerticalOptions="Center">
+
+        <timber:TimberLabel
+            TextColor="White"
+            BackgroundColor="Red"
+            Text="TimberControls.TimberLabel"
+            HorizontalTextAlignment="Center"/>
+
+        <timber:TimberLabel
+            TextColor="White"
+            BackgroundColor="Green"
+            Padding="10"
+            Text="TimberLabel with padding!"
+            HorizontalTextAlignment="Center"/>
+
+        <timber:TimberLabel
+            TextColor="White"
+            BackgroundColor="Blue"
+            Padding="10"
+            CornerRadius="10"
+            Text="TimberLabel with padding and rounded corners!"
+            HorizontalTextAlignment="Center"/>
+
+        <timber:TimberLabel
+            TextColor="White"
+            BackgroundColor="Red"
+            BorderWidth="2"
+            BorderColour="Black"
+            Text="TimberLabel with a border!"
+            HorizontalTextAlignment="Center"/>
+
+        <timber:TimberLabel
+            TextColor="White"
+            BackgroundColor="Green"
+            Padding="10"
+            BorderWidth="2"
+            BorderColour="Black"
+            Text="TimberLabel with padding and a border!"
+            HorizontalTextAlignment="Center"/>
+
+        <timber:TimberLabel
+            TextColor="White"
+            BackgroundColor="Blue"
+            Padding="10"
+            CornerRadius="10"
+            BorderWidth="2"
+            BorderColour="Black"
+            Text="TimberLabel with padding, rounded corners and a border!"
+            HorizontalTextAlignment="Center"/>
+
+    </StackLayout>
+
+</ContentPage>
