@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>ab594338-37dd-4faa-8330-f8cb1556ac44</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NuProjPath Condition=" '$(NuProjPath)' == '' ">$(MSBuildExtensionsPath)\NuProj\</NuProjPath>
+  </PropertyGroup>
+  <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
+  <PropertyGroup Label="Configuration">
+    <Id>TimberControls.TimberLabel</Id>
+    <Version>1.0.0</Version>
+    <Title>TimberLabel</Title>
+    <Authors>Chris Howarth</Authors>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <Owners>Chris Howarth</Owners>
+    <Summary>A custom Xamarin.Forms.Label control that adds support for padding, rounded corners and, borders on iOS and Android.</Summary>
+    <Description>A custom Xamarin.Forms.Label control that adds support for padding, rounded corners and, borders on iOS and Android.</Description>
+    <ReleaseNotes>
+    </ReleaseNotes>
+    <ProjectUrl>
+    </ProjectUrl>
+    <LicenseUrl>
+    </LicenseUrl>
+    <Copyright>
+    </Copyright>
+    <Tags>Xamarin.Forms Xamarin Label</Tags>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TimberControls.TimberLabel.Droid\TimberControls.TimberLabel.Droid.csproj" />
+    <ProjectReference Include="..\TimberControls.TimberLabel.iOS\TimberControls.TimberLabel.iOS.csproj" />
+    <ProjectReference Include="..\TimberControls.TimberLabel\TimberControls.TimberLabel.csproj" />
+  </ItemGroup>
+  <Import Project="$(NuProjPath)\NuProj.targets" />
+</Project>
