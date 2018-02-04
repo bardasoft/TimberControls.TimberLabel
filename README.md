@@ -30,7 +30,7 @@ Clone the repository and add the projects from the `src` folder into the appropr
 * **BorderColour** - Xamarin.Forms.Color
 
 ## Android
-[TimberLabel.Example.Android](/Screenshots/android.png)
+![TimberLabel.Example.Android](/Screenshots/android.png)
 
 ## iOS
 [TimberLabel.Example.iOS]() TBC - Awaiting build box :(
