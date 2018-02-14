@@ -22,15 +22,17 @@ Clone the repository and add the projects from the `src` folder into the appropr
 
 </ContentPage>
 ```
+**Special Note:** Make sure you add a call to `TimberLabelRenderer.InitRenderer()` within your iOS `AppDelegate.cs` and Android `MainActivity.cs` to avoid linking it out. This call must be done **AFTER** the call to `LoadApplication( ... )`.
 
 ### Additional Label Properties:
-* **Padding** - Xamain.Forms.Thickness
-* **CornerRadius** - int
-* **BorderWidth** - int
-* **BorderColour** - Xamarin.Forms.Color
+**Property** | **Type** | **Description**
+-------------|----------|----------------
+CornerRadius | int | Sets the corner radius of the label
+BorderWidth | int | Sets the width of the border for the label
+BorderColour | [Color](https://developer.xamarin.com/api/type/Xamarin.Forms.Color/) | Sets the colour of the border for the label
+Padding | [Thickness](https://developer.xamarin.com/api/type/Xamarin.Forms.Thickness/) | Sets the padding for the label
 
-## Android
-![TimberLabel.Example.Android](/Screenshots/android.png)
-
-## iOS
-[TimberLabel.Example.iOS]() TBC - Awaiting build box :(
+## Screenshots
+Android | iOS
+--------|----
+![TimberLabel.Example.Android](/Screenshots/android.png) | ![TimberLabel.Example.iOS](/Screenshots/ios.png)
