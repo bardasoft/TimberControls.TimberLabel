@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using Foundation;
+﻿using Foundation;
+using TimberControls.iOS.Renderers;
 using UIKit;
 
 namespace TimberLabel.Example.iOS
@@ -25,7 +22,14 @@ namespace TimberLabel.Example.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
+            InitCustomRenderers();
+
             return base.FinishedLaunching(app, options);
+        }
+
+        private void InitCustomRenderers()
+        {
+            TimberLabelRenderer.InitRenderer();
         }
     }
 }

@@ -15,6 +15,13 @@ namespace TimberControls.Droid.Renderers
     {
         private GradientDrawable m_background;
 
+        /// <summary>
+        /// Used only to ensure the renderer is not linked out
+        /// </summary>
+        public static void InitRenderer()
+        {
+        }
+
         public TimberLabelRenderer( Context context )
             : base( context )
         {

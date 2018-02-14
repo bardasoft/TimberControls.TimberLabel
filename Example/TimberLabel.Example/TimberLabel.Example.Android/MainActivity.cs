@@ -1,11 +1,7 @@
-﻿using System;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
+using TimberControls.Droid.Renderers;
 
 namespace TimberLabel.Example.Droid
 {
@@ -21,6 +17,13 @@ namespace TimberLabel.Example.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
+
+            InitCustomRenderers();
+        }
+
+        private void InitCustomRenderers()
+        {
+            TimberLabelRenderer.InitRenderer();
         }
     }
 }
