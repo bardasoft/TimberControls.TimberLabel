@@ -15,13 +15,6 @@ namespace TimberControls.iOS.Renderers
     {
         private UIEdgeInsets m_padding;
 
-        /// <summary>
-        /// Used only to ensure the renderer is not linked out
-        /// </summary>
-        public static void InitRenderer()
-        {
-        }
-
         public TimberLabelRenderer()
         {
             m_padding = new UIEdgeInsets();
