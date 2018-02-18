@@ -28,13 +28,12 @@
     <Description>A custom Xamarin.Forms.Label control that adds support for padding, rounded corners and, borders on iOS and Android.</Description>
     <ReleaseNotes>
     </ReleaseNotes>
-    <ProjectUrl>
-    </ProjectUrl>
-    <LicenseUrl>
-    </LicenseUrl>
+    <ProjectUrl>https://github.com/chowarth/TimberControls.TimberLabel</ProjectUrl>
+    <LicenseUrl>https://github.com/chowarth/TimberControls.TimberLabel/blob/master/LICENSE.md</LicenseUrl>
     <Copyright>
     </Copyright>
     <Tags>Xamarin.Forms Xamarin Label</Tags>
+    <IconUrl>http://www.chowarth.co.uk/wp-content/uploads/2018/02/icon_timber_blue.png</IconUrl>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\TimberControls.TimberLabel.Droid\TimberControls.TimberLabel.Droid.csproj" />
