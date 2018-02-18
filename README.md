@@ -22,7 +22,7 @@ Clone the repository and add the projects from the `src` folder into the appropr
 
 </ContentPage>
 ```
-**Special Note:** Make sure you add a call to `TimberLabelRenderer.InitRenderer()` within your iOS `AppDelegate.cs` and Android `MainActivity.cs` to avoid linking it out. This call must be done **AFTER** the call to `LoadApplication( ... )`.
+**Special Note for iOS:** Make sure to add `[assembly: Preserve( typeof( TimberLabelRenderer ), AllMembers = true )]` within your iOS `AppDelegate.cs` to avoid the renderer being linked out.
 
 ### Additional Label Properties:
 **Property** | **Type** | **Description**
