@@ -5,11 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="TimberControls.TimberLabel" Version="1.0.1" />
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.122203" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\src\TimberControls.TimberLabel\TimberControls.TimberLabel.csproj" />
   </ItemGroup>
 
   <ItemGroup>
